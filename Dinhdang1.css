@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+Body
+{
+	font-family:"Times New Roman", Times,serif;
+	font-size: 12px;
+}
+.clear
+{
+	clear: both;
+}
+.wrapper
+{
+	width: 870px;
+	margin: 0 auto;
+}
+.header
+{
+	width: 870px;
+}
+.logo_hinh
+{
+	width: 382px;
+	height:127px;
+	float:left;
+}
+.logo_text
+{
+	width: 488px;
+	height:127px;
+	float:right;
+	background-color:#3167CB;
+	text-align:center;
+	color:#FFF
+}
+P
+{
+	font-size:26px;
+	color:#FF0;
+	font-weight:bold }
+.WELCOME
+{
+	background-color:white;
+	color:#F00;
+	font-size:24px
+}
+.left 
+{
+	float:left;
+	width:150px;
+	background:rgb(209, 150, 209)
+}
+.v-menu {
+	width: 150px;
+	margin: 0;
+	padding: 0;
+	background:#0CF;
+	color:rgb(187, 139, 139);
+	list-style: none;
+	display: block;
+}
+.v-menu li
+{
+	position: relative;
+	border:#A6FFA5 solid 1px;
+}
+.v-menu li a
+{
+	color: #FFF;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+	line-height: 26px;
+	height: 26px;
+	padding: 0 20px;
+}
+.v-menu li:hover a
+{
+	background:#036;
+}
+.giua
+{
+	float:left;
+	width:600px;
+}
+.BAN_DO
+{
+	width:172PX;
+	height:250PX;
+	float:left;
+}
+H4
+{
+	color:#0E0F8D
+}
+.GT
+{
+	color:#F00;
+	font-weight:bold;
+	text-align: center;
+	background-color:#CCC;
+	font-size:23px;
+	
+}
+.h-menu
+{
+	display: block;
+	height: 26px;
+	background-image:url(images/cat_bg.gif);
+	color:#CCC;
+	margin: 0;
+	padding: 0;
+	list-style: none; }
+.h-menu li
+{
+	float: left;
+	position: relative;
+	border-right:#6CF 2px solid;
+}
+.h-menu li a
+{
+	color:#a93378;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+	line-height: 27px;
+	height: 27px;
+	padding: 0 10px;
+}
+.h-menu li:hover a
+{
+	color:#F0F
+}
+.right
+{
+	float:right;
+	width:120px;
+	background-color:#6FF
+}
+.HINH_PHAI
+{
+	width:100PX;
+	height:100PX;
+	padding:10PX
+}

@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<script language="javascript" src="kiemtra.js"></script>
+</head>
+<body>
+<form id="form1">
+	<table border="1" bordercolor="#003BF2" cellspacing="0" width="400"  bgcolor="#EAE6B6" align="center"  style="color:darkblue">
+		<h3  align="center" style="color: blue">Đăng ký du lịch</h3>
+			
+			<tr>
+				<td width="183">Họ và tên</td>
+				<td width="207"><input type="text"  id="tenDN"/></td>
+			</tr>
+			
+			<tr>
+				<td width="183">Địa chỉ</td>
+				<td width="207"><input type="text"  id="diachi"/></td>
+			</tr>
+			
+			<tr>
+				<td width="183">Điện thoại</td>
+				<td width="207"><input type="text" id="dienthoai"/></td>
+			</tr>
+            
+        <tr>
+                <td width="183">Loại Khách</td>
+                <td width="207"><input type="checkbox">Việt Nam</td>
+                
+                
+        
+        </tr>
+        
+        <tr>
+				<td width="183">Chọn tour</td>
+				<td width="207">
+                    <select>
+                        <optgroup label="Miền Bắc"> 
+                            
+                            <option>Hà Nội - Hạ Long - Sapa</option>
+                            <option>Hà Nội -Chùa Hương- NInh BÌnh</option>
+                            <option>Hà Nội-Cát Bà-Tuần Châu </option>
+                            
+                        </optgroup>
+                        
+                        <optgroup label="Miền Trung">
+                        
+                            <option>Huế-Bạch Mã-Đà Nẵng</option>
+                            <option>Nha Trang - Đà Lạt</option>
+                            <option>Buôn Mê Thuộc- GIa Lai- Komtum</option>
+                            
+                        </optgroup>
+                        
+                        <optgroup label="Miền Nam">
+                        
+                            <option>TPHCM- Cần Thơ- Cà Mau</option>
+                            <option>TPHCM - Mỹ Tho</option>
+                            
+                        </optgroup>
+                    </select>
+                </td>
+			</tr>
+			
+			<tr>
+				<td width="183">Phương tiện</td>
+				<td width="207">
+                            <input type="radio" name="Phương tiện">Máy bay
+                            <input type="radio" name="phương tiện">Ô tô
+                            <input type="radio" name="phương tiện">Khác
+                    </td>
+			</tr>
+        <tr>
+                <td width="183">Gói dịch vụ</td>
+                <td width="207"> 
+                            <input type="radio" name="tour">2 ngày 1 đêm
+                            <input type="radio" name="tour">5 ngày 3 đêm
+                            <input type="radio" name="tour">10 ngày 8 đêm
+            </td>
+        
+        
+        </tr>
+        
+            <tr>
+                <td colspan="2"><p>&nbsp;</p>
+                    <fieldset style="border: #FF0004 1px solid">
+                        <legend align="left" style="color: red">Số lượng đoàn khách</legend>
+                        Người lớn <input type="text" value="6" size="5"/>
+                        Trẻ em <input type="text" value="4" size="5"/>
+                    </fieldset>
+              </td>
+                    
+            </tr>
+			
+			<tr>
+                    <td width="125" >Ghi chú thêm</td>
+                    <td  >
+                        <textarea >
+                        Có 2 trẻ em dưới 6 tuổi
+                        Có 2 người ăn chay
+                        </textarea>
+                
+                </td>
+        </tr>
+			
+			<tr align="center">
+				<td width="111" colspan="2">
+                   <input type="button" value="Đăng ký" onclick="kiemtra()"/>
+                    <input type="button" value="Nhập lại" onclick="Xoa()" />
+                </td>
+        </tr>
+			
+		</table>
+	
+	</form>
+	
+</body>
+</html>
